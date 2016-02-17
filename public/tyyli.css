@@ -1,0 +1,98 @@
+html {
+    overflow-y:scroll;
+	height: 100%;
+	margin: 0;
+    padding: 0;
+}
+
+body{
+	position:relative;
+	margin:0;
+	padding:0;
+	height: 100%;
+}
+
+
+#container{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	height:100%;
+	margin: 0;
+	padding: 40px;
+	overflow:auto;
+	background: #33ff77; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#33ff77, #FFFFFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#33ff77, #FFFFFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#33ff77, #FFFFFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#33ff77, #FFFFFF); /* Standard syntax */
+	text-align:center;
+}
+
+.navi{
+	text-align:center;
+	float:right;
+	width:50%;
+	margin:0;
+	padding:0;
+	padding-top:60px;
+}
+.heading{
+	float:left;
+	width:45%;
+	padding-bottom:30px;
+}
+.heading img{
+	margin-left:100px;
+}
+
+.syringe{
+	float:left;
+	width:100px;
+}
+
+.menu .heading h1{
+	margin:0;
+	margin-right:20px;
+	padding:0;
+	padding-top:35px;
+	color: #000000;
+	font-family: 'Architects Daughter', cursive;
+	font-size:50px;
+}
+
+.menu  ul{
+	margin: 0;
+    padding: 0;
+}
+
+.menu  ul li {
+	display: inline-block;
+	margin: 0;
+}
+.menu  ul li a{
+	opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+	font-family: 'Architects Daughter', cursive;
+	font-size:25px;
+	text-decoration: none;
+	color: #000000;
+	padding:20px;
+}
+.menu  ul li a:hover{
+	opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+#main{
+	text-align:center;
+	width:80%;
+	margin: auto;
+}
+canvas{
+	margin:30px;
+	width:1000px;
+	height:700px;
+	border:10px solid #737373;
+}
