@@ -1,4 +1,20 @@
 <html>
 <title>html heroku</title>
 <h1>HTML Heroku käytössä</h1>
+
+<script type="text/javascript">
+    window.doorbellOptions = {
+        appKey: 'ws55EnEKJYAVfG0252UFQrQ03Agzr4vBNfJAP23hctIcfuKTW4P1qPhlSAYX2xmF'
+    };
+    (
+        function(d, t) {
+            var g = d.createElement(t);
+            g.id = 'doorbellScript';
+            g.type = 'text/javascript';
+            g.async = true;
+            g.src = 'https://embed.doorbell.io/button/3200?t='+(new Date().getTime());
+            (d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g);
+        }(document, 'script')
+    );
+</script>
 </html>
