@@ -5,20 +5,29 @@
 		<meta charset="UTF-8">
 		<title>Nursing Snake</title>
 		<link rel="stylesheet" href="tyyli.css" type="text/css">
+		<script src="script.js" type="text/javascript"></script>
+		<script>
+			function myCanvas() {
+				var c = document.getElementById("myCanvas");
+				var ctx = c.getContext("2d");
+				var img = document.getElementById("source");
+				ctx.drawImage(img,0,0,116,162,0,0,116,162);
+			}
+		</script>
 	</head>
-	<body>
+	<body onload="myCanvas(),setActive();">
+		<div style="display:none;">
+			<img id="source" src="images/snake45.png" alt="snake"/>
+		</div>
 		<div id="container">
 			<?php include 'navbar.php';?>
 			<div id="main">
 				<canvas id="myCanvas">
 				</canvas>
-				<script>
-					var c = document.getElementById("myCanvas");
-					var ctx = c.getContext("2d");
-					ctx.fillStyle = "#FF0000";
-					ctx.fillRect(30,30,30,75);
-				</script>
 			</div>
+		</div>
+		<div id="footer">
+			<p>&copy; DWord</p>
 		</div>
 		<!--Doorbell-->
 		<script type="text/javascript">

@@ -1,0 +1,9 @@
+	//Tunnistaa millä sivulla ollaan ja tyyli.css erilliset asetukset tälle
+	function setActive() {
+		aObj = document.getElementById('navi').getElementsByTagName('a');
+		for(i=0;i<aObj.length;i++) {
+			if(document.location.href.indexOf(aObj[i].href)>=0) {
+				aObj[i].className='active';
+			}
+		}
+	}
