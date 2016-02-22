@@ -22,8 +22,7 @@
 		<div id="container">
 			<?php include 'navbar.php';?>
 			<div id="main">
-				<canvas id="myCanvas">
-				</canvas>
+				<?php include 'canvas.php';?>
 			</div>
 		</div>
 		<div id="footer">

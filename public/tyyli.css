@@ -24,6 +24,7 @@ body{
 .menu{
 	height:100%;
 	margin: 0;
+	padding:0;
 	padding-top:20px;
 	padding-bottom:20px;
 	overflow:auto;
@@ -32,7 +33,6 @@ body{
     background: -o-linear-gradient(#00e68a, #FFFFFF); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#00e68a, #FFFFFF); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#00e68a, #FFFFFF); /* Standard syntax */
-	text-align:center;
 }
 
 .navi{
@@ -40,15 +40,16 @@ body{
 	width:50%;
 	margin:0;
 	padding:0;
-	padding-top:60px;
+	padding-top:50px;
+	
 }
 .heading{
-	float:left;
-	width:45%;
+	float: left;
+	width:50%;
 	padding-bottom:30px;
 }
 .heading img{
-	margin-left:150px;
+	padding-left:30%;
 }
 
 .syringe{
@@ -57,6 +58,7 @@ body{
 }
 
 .menu .heading h1{
+	float:left;
 	margin:0;
 	padding:0;
 	padding-top:35px;
@@ -67,7 +69,7 @@ body{
 
 .menu  ul{
 	margin: 0;
-    padding: 0;
+    padding-left:30%;
 }
 
 .menu  ul li {
